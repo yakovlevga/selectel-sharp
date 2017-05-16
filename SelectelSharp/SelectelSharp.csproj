@@ -45,8 +45,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
-    <Compile Include="ClientExtensions.cs" />
+    <Compile Include="SelectelClient.cs" />
+    <Compile Include="SelectelClientExtensions.cs" />
     <Compile Include="Headers\HeaderAttribute.cs" />
     <Compile Include="Common\Helpers.cs" />
     <Compile Include="Endpoints.cs" />

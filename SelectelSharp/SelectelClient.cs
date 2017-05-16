@@ -5,22 +5,22 @@ using System.Threading.Tasks;
 
 namespace SelectelSharp
 {
-    public class Client
+    public class SelectelClient
     {
         public string StorageUrl { get; private set; }
         public string AuthToken { get; private set; }
         public long ExpireAuthToken { get; private set; }
 
-        public Client() { }
+        public SelectelClient() { }
 
-        public Client(string proxyUrl = null, string proxyUser = null, string proxyPassword = null)
+        public SelectelClient(string proxyUrl = null, string proxyUser = null, string proxyPassword = null)
         {
             var proxy = new WebProxy(proxyUrl, true);
             proxy.Credentials = new NetworkCredential(proxyUser, proxyPassword);
             WebRequest.DefaultWebProxy = proxy;
         }
 
-        public Client(WebProxy proxy = null)
+        public SelectelClient(WebProxy proxy = null)
         {
             WebRequest.DefaultWebProxy = proxy;
         }

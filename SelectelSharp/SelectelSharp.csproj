@@ -47,10 +47,10 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="ClientExtensions.cs" />
-    <Compile Include="Common\HeaderAttribute.cs" />
+    <Compile Include="Headers\HeaderAttribute.cs" />
     <Compile Include="Common\Helpers.cs" />
     <Compile Include="Endpoints.cs" />
-    <Compile Include="Common\HeaderParsers.cs" />
+    <Compile Include="Headers\HeaderParsers.cs" />
     <Compile Include="Exceptions\SelectelWebException.cs" />
     <Compile Include="Headers\ConditionalHeaders.cs" />
     <Compile Include="Models\Container\Container.cs" />

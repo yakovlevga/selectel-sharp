@@ -1,4 +1,4 @@
-﻿using SelectelSharp.Common;
+﻿using SelectelSharp.Headers;
 using System.Collections.Specialized;
 
 namespace SelectelSharp.Models.File

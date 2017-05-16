@@ -5,7 +5,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Reflection;
 
-namespace SelectelSharp.Common
+namespace SelectelSharp.Headers
 {
     internal static class HeaderParsers
     {

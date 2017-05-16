@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SelectelSharp.Common
+namespace SelectelSharp.Headers
 {
     [System.AttributeUsage(AttributeTargets.Property, Inherited = false, AllowMultiple = false)]
     sealed class HeaderAttribute : Attribute

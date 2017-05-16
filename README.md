@@ -29,7 +29,7 @@ Almost every method in API needs _token_ to perform I/O operations under your st
 You should call AuthorizeAsync method to obtain it. Pass your client id and storage password to this method.
 
 ```cs
-await client.AuthorizeAsync("52953", "znziEOW5");
+await client.AuthorizeAsync("clientKey", "pa$$w0rd");
 ```
 If authorization was successful, client will recieve authrization token. In other case it will throw WebException.
 

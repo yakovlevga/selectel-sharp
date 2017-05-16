@@ -11,7 +11,7 @@ For more information see:
 
 ## Quick Start
 
-[NuGet package](https://www.nuget.org/packages/SelectelSharp/) from the package manager console:
+Install the [NuGet package](https://www.nuget.org/packages/SelectelSharp/) from the package manager console:
 ```powershell
 Install-Package SelectelSharp
 ```

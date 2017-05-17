@@ -1,20 +1,11 @@
 # SelectelSharp
 ### Selectel Cloud Storage .NET SDK 
 
-[![NuGet](https://img.shields.io/nuget/v/SelectelSharp.svg)](https://www.nuget.org/packages/SelectelSharp?NormalizedVersion=0.8.0)
-
 SelectelSharp is .net SDK for Selectel Cloud Storage written on C# in Async style.
 At this moment most of API methods are implemented, but some of them are still in development.
 
 For more information see: 
 [Selectel.com](https://selectel.com/)
-
-## Quick Start
-
-Install the [NuGet package](https://www.nuget.org/packages/SelectelSharp/) from the package manager console:
-```powershell
-Install-Package SelectelSharp
-```
 
 ## Basic usage
 

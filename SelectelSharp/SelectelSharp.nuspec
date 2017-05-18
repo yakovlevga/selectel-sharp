@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>SelectelSharp</id>
+    <version>0.8.1.0</version>
+    <title>$title$</title>
+    <authors>George Yakovlev</authors>
+    <owners>George Yakovlev</owners>
+    <licenseUrl>https://github.com/yakovlevga/selectel-sharp/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/yakovlevga/selectel-sharp</projectUrl>
+    <description>The Selectel Cloud Storage SDK for .NET</description>
+    <releaseNotes>Bug fixes.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>selectel cloud storage api</tags>
+  </metadata>
+</package>

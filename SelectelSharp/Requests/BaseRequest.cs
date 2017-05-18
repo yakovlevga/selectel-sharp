@@ -53,6 +53,11 @@ namespace SelectelSharp.Requests
 
         protected void SetCustomHeaders(IDictionary<string, object> headers = null)
         {
+            if (headers == null)
+            {
+                return;
+            }
+
             foreach (var header in headers)
             {
                 var headerKey = header.Key;
